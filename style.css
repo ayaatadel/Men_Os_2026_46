@@ -12,3 +12,15 @@ p{
     color: darkred;
     font-size: 32px;    
     }
+
+    .about section{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    } 
+    .about section img{
+    width: 200px;
+    height: auto;   
+    }

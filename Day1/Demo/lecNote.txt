@@ -21,7 +21,12 @@ Date:   Wed Jan 7 10:26:06 2026 +0200
 
  git log --oneline ===> commitId , Commit Message
  5bf4606 docs:add command checKout in design
- ============================================================
+
+
+ *********************************************************************** Commmit Ammend ****************************
+ save last changes on last commit : git commit --amend 
+                                   -------------------- git add fileName || . 
+                                   git commit --amend  (change message or not)
 
 
 Working Area                             Staging Area                              LocalRepo (git init)
