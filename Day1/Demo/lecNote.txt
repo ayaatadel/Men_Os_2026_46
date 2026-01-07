@@ -1,6 +1,7 @@
 ================> AGenda ============>
 1- History of git all stages (cvcs || DVCS)
 2- commands git =============> (working area || staging area || local repo)
+3- Remove changes from file in working area ===> git checkout fileName (file1 file2)
 
 
 
