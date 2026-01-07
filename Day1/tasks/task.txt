@@ -5,3 +5,6 @@
 ======================> Crete your repo on accout 
 1- upolad project ===> github pages
 2- add me as collaborator on this repo
+
++=================== Self study 
+SSH KEY ====> how to  use it in github 
