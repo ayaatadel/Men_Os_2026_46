@@ -19,3 +19,4 @@
 **Summary:**  
 SSH = fast, secure, no password prompts  
 HTTPS = simple setup, may require token/password every push
+
