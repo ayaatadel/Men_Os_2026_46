@@ -28,6 +28,9 @@ Date:   Wed Jan 7 10:26:06 2026 +0200
                                    -------------------- git add fileName || . 
                                    git commit --amend  (change message or not)
 
+                                   ******************************************* Vs Code Is Core editor *******************
+                                                vs Core editor : git config --global core.editor "code --wait"
+
 
 Working Area                             Staging Area                              LocalRepo (git init)
 (untracked Files (chages))        (tracked files || added chages )                 (.git)
