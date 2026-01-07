@@ -11,6 +11,19 @@
 -- Ckeck Status : git Status
 -- show all commits : git log && git log --oneline
 
+git log ==> commit Id , Auther , Date , Commit Message
+ commit 5bf46060eaf14ba850cd595659d3c4601615e055
+Author: ayaatadel <ayaatadel128@gmail.com>
+Date:   Wed Jan 7 10:26:06 2026 +0200
+    docs:add command checKout in design
+    
+ -----------------------------
+
+ git log --oneline ===> commitId , Commit Message
+ 5bf4606 docs:add command checKout in design
+ ============================================================
+
+
 Working Area                             Staging Area                              LocalRepo (git init)
 (untracked Files (chages))        (tracked files || added chages )                 (.git)
 
