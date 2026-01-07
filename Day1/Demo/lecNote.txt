@@ -1,0 +1,22 @@
+================> AGenda ============>
+1- History of git all stages (cvcs || DVCS)
+2- commands git =============> (working area || staging area || local repo)
+
+
+
+
+
+
+
+
+
+Working Area                             Staging Area                              LocalRepo 
+(untracked Files (chages))        (tracked files || added chages )                 (.git)
+
+                     -----------> 
+                     git add fileName
+                     git add fileName1  fileName2
+                     git add .
+                     git add --all 
+                                                             ====================>
+                                                             git commit -m "Message"
