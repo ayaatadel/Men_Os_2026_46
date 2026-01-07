@@ -7,10 +7,11 @@
 
 
 
+--------------------------- Git Commands -------------
+-- Ckeck Status : git Status
+-- show all commits : git log && git log --oneline
 
-
-
-Working Area                             Staging Area                              LocalRepo 
+Working Area                             Staging Area                              LocalRepo (git init)
 (untracked Files (chages))        (tracked files || added chages )                 (.git)
 
                      -----------> 
@@ -20,3 +21,7 @@ Working Area                             Staging Area                           
                      git add --all 
                                                              ====================>
                                                              git commit -m "Message"
+
+             ==============   لازم الفايل يكون اتعمله add ع الاقل مره واحده =======================>
+                        git commit -a -m "Message"
+                        git commit -am "Message"
