@@ -35,13 +35,33 @@ Date:   Wed Jan 7 10:26:06 2026 +0200
                                          git clone   https://github.com/ayaatadel/Men_Os_2026_46.git ==> link repo
 
                                      ------- install all file but You don't have any permisission unless You are Collaborator 
-                                     
-*************************************************************************************************************************************    
 
-Working Area                             Staging Area                              LocalRepo (git init)
+********************************************************************     Remote     **********************************************************
+                                                              git config --global user.name "iti"
+                                                              git config --global user.email "iti@gmail.com"
+                                                              git remote add origin repo_link
+
+1- check changes (local)
+git status (add && commit)
+git pull origin master 
+git push origin master
+  
+
+
+
+
+
+
+************************************************************************************
+
+Working Area                             Staging Area                              LocalRepo (git init)                      remote repo
 (untracked Files (chages))        (tracked files || added chages )                 (.git)
 
-                     -----------> 
+                                                                                                    =================> 
+                                                                                                              git remote add origin repo_link
+                                                                                                              git push origin masster
+                                                                                                             <=========================
+                ======== >                                                                                    git pull origin master
                      git add fileName
                      git add fileName1  fileName2
                      git add .
