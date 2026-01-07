@@ -46,3 +46,9 @@ Working Area                             Staging Area                           
                        git reset --> reset all added files
                        git reset fileName
                        git reset fileName1 fileName2 **
+                                                       
+                                                       <========================
+                                                       git reset --soft Head~ :: Reset Without removing changes
+                                                       (~ : Number of commits )
+                                          ===> reset with removing changes
+                                          git reset --hard Head~
