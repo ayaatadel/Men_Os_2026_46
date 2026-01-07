@@ -31,6 +31,12 @@ Date:   Wed Jan 7 10:26:06 2026 +0200
                                    ******************************************* Vs Code Is Core editor *******************
                                                 vs Core editor : git config --global core.editor "code --wait"
 
+********************************************************* Clone Repo ***************************************
+                                         git clone   https://github.com/ayaatadel/Men_Os_2026_46.git ==> link repo
+
+                                     ------- install all file but You don't have any permisission unless You are Collaborator 
+                                     
+*************************************************************************************************************************************    
 
 Working Area                             Staging Area                              LocalRepo (git init)
 (untracked Files (chages))        (tracked files || added chages )                 (.git)
