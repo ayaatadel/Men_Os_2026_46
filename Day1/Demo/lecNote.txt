@@ -26,3 +26,6 @@ Working Area                             Staging Area                           
              ==============   لازم الفايل يكون اتعمله add ع الاقل مره واحده =======================>
                         git commit -a -m "Message"
                         git commit -am "Message"
+
+
+(git checkout fileName (remove changes that not added) )
