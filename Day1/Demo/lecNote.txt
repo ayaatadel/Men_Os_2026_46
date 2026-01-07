@@ -7,7 +7,6 @@
 
 
 
-
 --------------------------- Git Commands -------------
 -- Ckeck Status : git Status
 -- show all commits : git log && git log --oneline
@@ -29,3 +28,8 @@ Working Area                             Staging Area                           
 
 
 (git checkout fileName (remove changes that not added) )
+ 
+                       <========================
+                       git reset --> reset all added files
+                       git reset fileName
+                       git reset fileName1 fileName2 **
