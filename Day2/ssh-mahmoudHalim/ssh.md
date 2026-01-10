@@ -12,3 +12,6 @@ then copy the public key and paste it on github
 then click add SSH key
 
 now you can push to your repos without signing in
+note: you need to add the ssh url as remote not the https for this to work
+
+![alt text](image-2.png)
