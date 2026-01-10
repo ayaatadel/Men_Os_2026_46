@@ -1,0 +1,7 @@
+1- each one will write his hame in this file (  Names.txt)
+2- on my repo [create branch with any feature add merge it with Master]
+3- fork repo chage in file fork 
+4- create organization 
+ ----------> upload project ES6 -----> add me on this repo 
+ ----------> create another repo  -----> add me on this repo  + 5 of your classmate [permissions]
+
