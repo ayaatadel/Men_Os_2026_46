@@ -60,6 +60,20 @@ git push origin  branchName
 
 
 
---------------------------------------------------------------->
+---------------------------------------------------------------     Merge branches + Merge master --------------------
+
+git swicth navbar
+git pull navbar  [Conflicts]
+git push remote_navbar 
+git pull master  [Conflicts]
+git push remote_navbar 
+
+
+-------------
+git switch master 
+git pull master [Conflicts]
+git pull Navbar  [Conflicts]
+git push master
+
 
 
