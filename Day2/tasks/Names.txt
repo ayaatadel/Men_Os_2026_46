@@ -3,8 +3,6 @@
 3- Eyad Emad Hamdy Sharara
 4- Youssef Mohamed Mahmoud
 5- Islam Sobhy yousof
-<<<<<<< HEAD
 6- Mohamed Fouad Mohamed Nassar
-=======
-6- Mostafa Mansour Abdelsalam
-7- Mahmoud Abdelhalim Ahmed Isa
+7- Mostafa Mansour Abdelsalam
+8- Mahmoud Abdelhalim Ahmed Isa
