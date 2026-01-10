@@ -24,6 +24,7 @@ nav{
     color: #ff6347;
     cursor: pointer;
 }
+/* remove hover but i won't till i take the permission ^__^ */
 .container{
     max-width: 1200px;
     margin: auto;
