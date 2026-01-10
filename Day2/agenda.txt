@@ -73,4 +73,4 @@ show files that has stash : git stash show
 show  data  in stash : git stash pop  [ remove stash from queue]
 show  data  in stash : git stash apply  [ save stash in queue]
 clear stash : git stash clear
-remove specific stash : git stash drop @id
+remove specific stash : git stash drop (stash@{0}) ---> id
