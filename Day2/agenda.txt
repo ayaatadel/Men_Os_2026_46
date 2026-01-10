@@ -5,3 +5,9 @@ Pull Request
 Stashing
 Fork 
 Organization
+
+=============================>
+
+Branches  ------------------> New Feature 
+1- create branch : git branch branchName
+2- git branch
