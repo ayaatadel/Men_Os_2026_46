@@ -1,0 +1,43 @@
+HTTPS (HTTP)
+
+How it works
+
+Uses username + password
+
+Now GitHub requires a Personal Access Token (PAT) instead of password
+
+Pros
+
+Easy for beginners
+Works everywhere (no extra setup)
+Good for quick use or shared computers
+
+
+cons
+
+Asks for username/token
+Less convenient (you must store token or enter it)
+
+
+
+SSH
+
+How it works
+
+Uses SSH key pair (public + private key)
+
+Once set up → no password/token needed
+
+
+Pros
+
+More secure
+No repeated login
+Best for daily development
+
+Cons
+
+One-time setup needed
+Slightly confusing at first
+
+
