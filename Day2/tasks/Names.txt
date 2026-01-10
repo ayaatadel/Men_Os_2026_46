@@ -23,9 +23,5 @@
 12- Ahmed Sameh Mohamed
 12- Amir ahmed said 
 13-mohamed reda elgendy
-git add Day2/tasks/Names.txt
-
-
 14 - Alaa  anwar abo  elazm  elsayed
-
-  
+15- Abdallah Ahmed Hassan Habsa
