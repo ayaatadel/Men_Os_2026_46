@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color:blue;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;}
+    h1{
+    color: darkred;
+    font-size: 32px;    
+    }
+
+    .about section{
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    } 
+    .about section img{
+    width: 200px;
+    height: auto;   
+    }

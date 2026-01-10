@@ -1,0 +1,91 @@
+================> AGenda ============>
+1- History of git all stages (cvcs || DVCS)
+2- commands git =============> (working area || staging area || local repo)
+3- Remove changes from file in working area ===> git checkout fileName (file1 file2)
+
+
+
+
+
+--------------------------- Git Commands -------------
+-- Ckeck Status : git Status
+-- show all commits : git log && git log --oneline
+
+git log ==> commit Id , Auther , Date , Commit Message
+ commit 5bf46060eaf14ba850cd595659d3c4601615e055
+Author: ayaatadel <ayaatadel128@gmail.com>
+Date:   Wed Jan 7 10:26:06 2026 +0200
+    docs:add command checKout in design
+    
+ -----------------------------
+
+ git log --oneline ===> commitId , Commit Message
+ 5bf4606 docs:add command checKout in design
+
+
+ *********************************************************************** Commmit Ammend ****************************
+ save last changes on last commit : git commit --amend 
+                                   -------------------- git add fileName || . 
+                                   git commit --amend  (change message or not)
+
+                                   ******************************************* Vs Code Is Core editor *******************
+                                                vs Core editor : git config --global core.editor "code --wait"
+
+********************************************************* Clone Repo ***************************************
+                                         git clone   https://github.com/ayaatadel/Men_Os_2026_46.git ==> link repo
+
+                                     ------- install all file but You don't have any permisission unless You are Collaborator 
+
+********************************************************************     Remote     **********************************************************
+                                                              git config --global user.name "iti"
+                                                              git config --global user.email "iti@gmail.com"
+                                                              git remote add origin repo_link
+
+1- check changes (local)
+git status (add && commit)
+git pull origin master 
+git push origin master
+
+
+================================================= README.md File EX : https://github.com/facebook/react===============
+  
+
+
+
+
+
+
+************************************************************************************
+
+Working Area                             Staging Area                              LocalRepo (git init)                      remote repo
+(untracked Files (chages))        (tracked files || added chages )                 (.git)
+
+                                                                                                    =================> 
+                                                                                                              git remote add origin repo_link
+                                                                                                              git push origin masster
+                                                                                                             <=========================
+                ======== >                                                                                    git pull origin master
+                     git add fileName
+                     git add fileName1  fileName2
+                     git add .
+                     git add --all 
+                                                             ====================>
+                                                             git commit -m "Message"
+
+             ==============   لازم الفايل يكون اتعمله add ع الاقل مره واحده =======================>
+                        git commit -a -m "Message"
+                        git commit -am "Message"
+
+
+(git checkout fileName (remove changes that not added) )
+ 
+                       <========================
+                       git reset --> reset all added files
+                       git reset fileName
+                       git reset fileName1 fileName2 **
+                                                       
+                                                       <========================
+                                                       git reset --soft Head~ :: Reset Without removing changes
+                                                       (~ : Number of commits )
+                                          ===> reset with removing changes
+                                          git reset --hard Head~

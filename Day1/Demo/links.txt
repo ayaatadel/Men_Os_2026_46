@@ -1,0 +1,11 @@
+install git 
+Mac : https://git-scm.com/install/mac
+win : https://git-scm.com/install/windows
+linux : https://git-scm.com/install/Linux
+
+Git Commit Message Cheat Sheet : https://eqraatech.com/git-commit-message-cheatsheet/
+
+Vs Code Core Editor : https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Setup-and-Config
+
+Markdown cheatsheet :https://www.markdownguide.org/cheat-sheet/
+README.md File EX : https://github.com/facebook/react

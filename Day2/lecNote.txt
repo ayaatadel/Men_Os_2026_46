@@ -1,0 +1,21 @@
+================> Branches  (master , main , dev)
+master [index , style ,script] -------------------------------> Main Structure
+index-----------------> navbar cards footer
+navbar  ----> [code] --> finshed       ********************************> merge [navbar , master]
+cards ----------> PULL MASTER   -----> [code] *************************> merge [cards , master]  --------------> code navbar , cards
+footer----------------------------> code navbar , cards -------------->  [code] *************************> merge [footer, master]
+
+
+----------------------- Default (master , main , dev) ----------------- Updated with all Code
+
+==================================== GitHub ============================
+
+
+===============> BootStrap ===============> HTML , CSS ,JS , BootStrap
+***************************** tasks
+- Create repo 
+- Master ------------> Main Structure 
+-  task---> feature------> Branch  ---> push  Remote branch
+--- feature ---> merge master    
+
+-------- update -------> merge master
