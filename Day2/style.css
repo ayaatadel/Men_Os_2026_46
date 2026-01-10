@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+h1{
+    color: #444;
+    margin-bottom: 20px;
+}   
+p{
+    margin-bottom: 15px;
+}
+a{
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #218838;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+    border-color: #0066cc;
+    outline: none;
+}
