@@ -26,3 +26,54 @@ push on your remote branch
 Merge footer , Master
 Pull request 
 
+
+------------------------------    Merge master in your_branch    -------------------------------------------
+
+
+clone  : 
+-------------------------->   
+create branch : git branch branchName
+git status [add , commit]
+git push origin  branchName
+
+{
+git pull origin master [Conflicts]
+git push origin  branchName
+ }
+
+
+Update : 
+git switch  your_branch
+git status [add , commit]
+git pull origin your_branch [Conflicts]
+git pull master [Conflicts]
+git push origin  your_branch
+
+start coding ---------------
+git status [add , commit]
+git push origin  your_branch
+
+{
+git pull origin master [Conflicts]
+git push origin  branchName
+ }
+
+
+
+---------------------------------------------------------------     Merge branches + Merge master --------------------
+
+git swicth navbar
+git pull navbar  [Conflicts]
+git push remote_navbar 
+git pull master  [Conflicts]
+git push remote_navbar 
+
+
+-------------
+git switch master 
+git pull master [Conflicts]
+git pull Navbar  [Conflicts]
+git push master
+
+
+
