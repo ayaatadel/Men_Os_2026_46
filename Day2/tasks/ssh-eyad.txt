@@ -1,0 +1,9 @@
+ ssh-keygen -t ed25519 -C "eyademad282@gmail.com"
+ -- generating the key
+
+ cat ~/.ssh/id_ed25519.pub
+ -- showing the key then copying it to add new ssh key at github
+
+ ssh -T git@github.com
+ Hi eyademad1! You've successfully authenticated, but GitHub does not provide shell access.
+ --checking the connection
