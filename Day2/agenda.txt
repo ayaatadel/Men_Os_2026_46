@@ -10,7 +10,19 @@ Organization
 
 Branches  ------------------> New Feature 
 1- create branch : git branch branchName
-2- git branch
+2- list branches  
+    local : git branch
+    remote : git branch -r
+
+3- switch branch :
+     git switch branchName
+     git checkout  branchName
+4- crate branch + switch branch : git switch  -c branchName
+5- delete branch --------> loacal , remote
+
+************ remove branch : swicth on anoteher branch ************
+local : git branch -d test/test
+remote : git push origin -d test/test
 
 
 =============== Branch Names 
