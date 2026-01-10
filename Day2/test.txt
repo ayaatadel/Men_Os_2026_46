@@ -1,27 +1,81 @@
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
-sjdfklajjfhajesgk
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Hub Day2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <header>
+        <h1>Git Hub Day2</h1>
+    </section>
+<section class="nav">
+    <h2>nmnsdnmsdmnns</h2>
+    <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+</section>
+<section class="cards">
+    <section>
+    <h2>Our Cards</h2>
+    <p>cndmn.cdvbnfbnvd</p>
+    </section>
+    <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Image 1">
+        <h3>Card Title 1</h3>
+        <p>This is a description for card 1.</p>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Image 3">
+        <h3>Card Title 3</h3>
+        <p>This is a description for card 3.</p>
+    </div>
+</section>
+<div>
+    <p>
+        This is a simple webpage created as part of Git Hub Day2. It includes various HTML elements such as headers, navigation, sections, articles, and footers to demonstrate a basic webpage structure.
+
+    </p>
+    <button>
+        Click Me
+    </button>
+</div>
+<section>
+    <article>
+        <h2>Welcome to Git Hub Day2</h2>
+        <p>This is a sample webpage created to demonstrate HTML structure and styling. You can customize this template to fit your needs.</p>
+    </article>
+</section>
+<section>
+    <section class="left">
+        <h2>Left Section</h2>
+        <p>This is the left section of the webpage.</p>
+        <button>
+            Learn More
+        </button>
+    </section>
+    <aside>
+        <h3>Related Links</h3>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </aside>
+</section>
+
+<section> 
+    <footer>
+        <p>&copy; 2024 Git Hub Day2. All rights reserved.</p>
+    </footer>
+</section>
+
+</body>
+</html>
