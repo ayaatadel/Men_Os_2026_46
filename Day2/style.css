@@ -135,3 +135,11 @@ footer p:hover{
 .cards .card .info h3{
     font-size: 1.5em;
 }
+
+
+footer p:hover{
+    text-decoration: underline;
+}
+.cards .card .info p{
+    font-size: 1em;
+}
