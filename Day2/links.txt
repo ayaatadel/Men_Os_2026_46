@@ -1,7 +1,0 @@
-Naming Of Branches
---------------
-https://www.geeksforgeeks.org/git/how-to-naming-conventions-for-git-branches/
-https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies-overview?view=azure-devops
-https://medium.com/@abhay.pixolo/naming-conventions-for-git-branches-a-cheatsheet-8549feca2534
-
---------------------------------------------
