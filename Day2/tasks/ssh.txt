@@ -1,0 +1,9 @@
+SSH key is a secure access credential that uses public-key cryptography to authenticate a user or automated process to a remote server without a password.
+It provides a much stronger, more convenient, and automation-friendly alternative to traditional password-based authentication
+
+consists of an asymmetric cryptographic key pair: 
+
+    A public key: This key is like a padlock you can distribute freely. You place it on any server you want to access. It is used by the server to encrypt a challenge message that only the corresponding private key can decrypt.
+    A private key: This key is like the unique, secret key that opens the padlock. It is stored securely on your local machine and must never be shared. Possession of the private key proves your identity to the server during the authentication process. 
+
+The core differences between SSH key authentication and traditional password authentication lie in their underlying mechanism, security, and usability
