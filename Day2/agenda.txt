@@ -63,7 +63,3 @@ git pull origin navbar --------> remote    }
 
 
 
-=================== index ============
-navbar -------> feature/Navbar
-cards
-footer
