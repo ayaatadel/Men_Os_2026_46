@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+li{
+    list-style: none;
+    padding: auto;
+}
 nav{
     background-color: #333;
     padding: 10px;
@@ -41,6 +44,11 @@ button{
     padding: 10px 20px;
     cursor: pointer;
 }
+aside{
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 20px;
+}
 button:hover{
     background-color: #ff6347;
 }
@@ -54,13 +62,26 @@ footer{
     width: 100%;
     bottom: 0;
 }
+section div{
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+div:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
 footer p{
     margin: 0;
 }
 footer p:hover{
     color: #ff6347;
     cursor: pointer;
-}.cards .card{
+}
+button{
+    border-radius: 5px;
+}
+.cards .card{
     display: flex;
     justify-content: space-between;
     align-items: center;
