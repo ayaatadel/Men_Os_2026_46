@@ -1,0 +1,7 @@
+==========>
+---> Actions On Remote Repo [delete, switch ownership of repo, default branch]
+Branches
+Pull Request
+Stashing
+Fork 
+Organization
