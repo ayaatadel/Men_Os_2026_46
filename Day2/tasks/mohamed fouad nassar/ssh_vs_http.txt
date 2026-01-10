@@ -1,0 +1,12 @@
+HTTPS: 
+	- using url like this: https://github.com/ayaatadel/Men_Os_2026_46.git
+	- authentication done with username, and password or using PAT (personal access token) as github don't accept normal password
+	- every push github will check the token
+	
+SSH: 
+	- using this url: git@github.com:ayaatadel/Men_Os_2026_46.git
+	- authentication done with a two keys pair:
+		-- private in machine
+		-- public in github
+	- there is no token, username, or password
+	- more secure, automated, and profissional
