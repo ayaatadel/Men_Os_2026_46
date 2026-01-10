@@ -8,17 +8,59 @@ Organization
 
 =============================>
 
-Branches  ------------------> New Feature 
-1- create branch : git branch branchName
-2- git branch
-
-
+Branches  -----------
 =============== Branch Names 
 feature/T-456-user-authentication
 bugfix/T-789-fix-header-styling
 hotfix/T-321-security-patch
 release/v2.0.1
 docs/T-654-update-readme
+
+-------> New Feature 
+1- create branch : git branch branchName
+2- list branches  
+    local : git branch
+    remote : git branch -r
+
+3- switch branch :
+     git switch branchName
+     git checkout  branchName
+4- crate branch + switch branch : git switch  -c branchName
+5- delete branch --------> loacal , remote
+
+************ remove branch : swicth on anoteher branch ************
+local : git branch -d test/test
+remote : git push origin -d test/test
+
+
+*****************************************  Merge Between Branches ***********************************
+                                          merge between (master and navbar)
+navbar , master ------------> same file (same lines ) xxxxxxxxxxxxxxxxxxxxxxxxxxx Conflicts
+navbar , master ------------> same file (different lines ) xxxxxxxxxxxxxxxxxxxxxxxxxxx No  Conflicts
+navbar , master ------------> different file  xxxxxxxxxxxxxxxxxxxxxxxxxxx No  Conflicts
+
+
+
+----------------- Master ----> navbar  
+----------------- Master <---- navbar  (errors)  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Steps ----------------------> 
+1- switch navbar : git swicth navbar
+2- git status (add , commit)
+3- git merge master (all code (changes in master put it to navbar)) 
+   ---------------- conflicts ------------- (add , commit)
+4- git push origin navbar
+===================================================> Master  (merge (navbar, master) ) ================================> 
+git swicth master 
+{
+git merge navbar -----> local  &&
+git pull origin navbar --------> remote    }
+  -------------------- Check Conflicts 
+  git push origin master ---------------------------> Updated
+
+
+====================================================
+
 
 
 =================== index ============

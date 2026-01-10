@@ -1,0 +1,28 @@
+=======================> Clone ============> master , navbar   [ Saif]
+- clone ---> branches + changes   (master , navbar)
+
+----------- Footer ---------  new branch feature/Footer
+------------- finshed code  
+ uplad remote repo [git pusg origin feature/Footer ]
+
+************************************************************** Updates *****************
+cheack local (git status [add , commit] )
+git pull on your remote branch [conflicts]
+git pull master [conflicts]
+
+---------------------> 
+complte code  
+add , commit 
+push on your remote branch 
+
+
+ -----------------------------------------------------> Saif   (local [master , navbar])
+ updates navbar ------------> add branch Navbar (push  on remote)
+ merge updates with master (merge ) 
+
+
+
+******************* 6 PM *****************
+Merge footer , Master
+Pull request 
+
